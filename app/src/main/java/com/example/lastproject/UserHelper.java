@@ -1,6 +1,7 @@
 package com.example.lastproject;
 
 public class UserHelper {
+    //Deklarasi
     String nama, phone, date;
 
     public UserHelper() {
