@@ -15,25 +15,25 @@ public class UserHelper {
 
     public String getNama() {
         return nama;
-    }
+    } //Method Getter
 
     public void setNama(String nama) {
         this.nama = nama;
-    }
+    } //Method Setter
 
     public String getPhone() {
         return phone;
-    }
+    } //Method Getter
 
     public void setPhone(String phone) {
         this.phone = phone;
-    }
+    } //Method Setter
 
     public String getDate() {
         return date;
-    }
+    } //Method Getter
 
     public void setDate(String date) {
         this.date = date;
-    }
+    } //Method Setter
 }

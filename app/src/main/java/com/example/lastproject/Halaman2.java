@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Gallery;
 
 public class Halaman2 extends AppCompatActivity {
-
+    //Deklarasi Button
     Button btn1,btn2;
 
     @Override
@@ -19,6 +19,7 @@ public class Halaman2 extends AppCompatActivity {
         btn1 = (Button) findViewById(R.id.btnBooking);
         btn2 = (Button) findViewById(R.id.btnGallery);
 
+        //Mengatur btn 1 jika di click menuju halaman3
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,6 +27,8 @@ public class Halaman2 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        //Mengatur btn2 jika di click menuju Halaman Gambar
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
